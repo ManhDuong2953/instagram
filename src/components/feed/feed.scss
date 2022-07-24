@@ -1,0 +1,15 @@
+.feed{
+    margin: 95px 0;
+    display: flex;
+
+    .content{
+        flex: 1;
+        position: absolute;
+    }
+
+    .sidebar{
+        flex: 1;
+        position: fixed;
+        right: 248px;
+    }
+}

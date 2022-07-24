@@ -1,0 +1,15 @@
+.inboxs {
+  display: flex;
+  margin-top: 20px;
+  border: 0.2px solid #c8c8c8;
+
+  .inboxListFriends {
+    flex: 1.1;
+  }
+
+  .inboxMessages {
+    flex: 2;
+    border-left: 0.2px solid #c8c8c8;
+    height: 83vh;
+  }
+}

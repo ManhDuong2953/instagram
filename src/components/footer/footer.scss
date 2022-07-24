@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+
+  .footerList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+
+    a {
+      text-decoration: none;
+      opacity: 0.8;
+
+      .footerItem {
+        margin-right: 8px;
+        color: gray;
+        font-size: 13px;
+      }
+    }
+
+    a:hover {
+      opacity: 1;
+    }
+  }
+
+  .footerFrom {
+    color: gray;
+    font-size: 14px;
+  }
+}

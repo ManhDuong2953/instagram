@@ -1,0 +1,104 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 319px;
+  font-size: 14px;
+
+
+  .sidebarProfile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+
+    .myProfile {
+      img {
+        margin-right: 10px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      span {
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+
+    .profileSwitch {
+      color: rgb(0 149 246);
+      font-weight: 600;
+    }
+  }
+
+  .friendMore {
+    .friendTiltle {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 10px 0;
+
+      .titleHide {
+        color: gray;
+      }
+
+      .titleMore {
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+    
+    .friendList::-webkit-scrollbar {
+      display: none;
+    }
+    .friendList {
+      padding: 0;
+      list-style: none;
+      overflow-y: auto;
+      height: 316px;
+
+
+      .itemMore {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        .itemInfo {
+          display: flex;
+          align-items: center;
+
+          img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor: pointer;
+          }
+
+          span {
+            font-weight: 600;
+            margin-left: 12px;
+
+          }
+        }
+
+        .itemFollow {
+          color: rgb(0 149 246);
+
+          font-weight: 600;
+          align-self: center;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:1023px) {
+  .sidebar {
+    display: none;
+  }
+}

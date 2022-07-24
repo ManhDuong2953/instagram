@@ -1,0 +1,94 @@
+.register {
+  width: 360px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border: 0.2px solid #c8c8c8;
+
+  .registerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .registerLogo {
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .registerDesc {
+      font-size: 18px;
+      color: gray;
+      text-align: center;
+    }
+
+    .registerFacebook {
+      background-color: blue;
+      border: none;
+      outline: none;
+      display: flex;
+      align-items: center;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-top: 10px;
+
+      .registerIcon {
+        font-size: 18px;
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .registerHr {
+    width: 100px;
+    height: 1px;
+    background-color: #c8c8c8;
+    margin: 10px 0;
+  }
+
+  .registerForm {
+    display: flex;
+    flex-direction: column;
+
+    input {
+      padding: 6px 10px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+      background-color: #fafafa;
+      border: none;
+      border: 0.1px solid #c8c8c8;
+      outline: none;
+    }
+
+    .registerButton {
+      background-color: blue;
+      padding: 5px 10px;
+      color: white;
+      border-radius: 4px;
+      margin: 5px 0;
+      border: none;
+    }
+
+    .registerPolicy{
+        margin-top: 15px;
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+    }
+  }
+
+  .registerLoginn{
+      margin-top: 30px;
+      .registerLogin{
+          color: blue;
+          cursor: pointer;
+      }
+  }
+}

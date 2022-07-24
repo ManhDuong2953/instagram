@@ -1,0 +1,93 @@
+.login {
+  width: 360px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  border: 0.2px solid #c8c8c8;
+
+  .loginLogo {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    input {
+      padding: 6px 50px 6px 10px;
+      margin-bottom: 10px;
+      border-radius: 2px;
+      background-color: #fafafa;
+      border: none;
+      border: 0.1px solid #c8c8c8;
+      outline: none;
+    }
+
+    .loginButton {
+      background-color: blue;
+      padding: 5px 10px;
+      color: white;
+      border-radius: 4px;
+      margin: 5px 0;
+      border: none;
+    }
+
+    .loginPolicy {
+      margin-top: 15px;
+      color: gray;
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+
+  .loginHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .loginFacebook {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      display: flex;
+      align-items: center;
+      color: blue;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin: 8px 0;
+
+      .loginIcon {
+        font-size: 18px;
+        margin-right: 4px;
+      }
+    }
+    .loginForget {
+      font-size: 14px;
+      cursor: pointer;
+    }
+  }
+
+  .loginHr {
+    width: 100px;
+    height: 1px;
+    background-color: #c8c8c8;
+    margin: 10px 0;
+  }
+
+  .loginRegisterr {
+    margin: 20px;
+    .loginRegister {
+      color: blue;
+      cursor: pointer;
+    }
+  }
+}
